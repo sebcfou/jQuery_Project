@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
        
-        ShowBoiteIfScrollPast150Px();
+        ShowBoiteIfScrollPast160Px();
         
     });
     
@@ -9,6 +9,6 @@ $(document).ready(function(){
 
 function ShowBoiteIfScrollPast150Px()
 {
-    if($(document).scrollTop() > 150)
+    if($(document).scrollTop() > 160)
            $('.boite').addClass('show')
 }
